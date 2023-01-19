@@ -1,8 +1,6 @@
-header {
+
+.header-backup{
     background: #000;
-}
-header .phone{
-    color: #fff;
 }
 header .top {
     justify-content: space-between;
@@ -11,17 +9,18 @@ header .top {
     position: relative;
 }
 
-header .logo img {
+header .top .logo img {
     top: 60px;
     z-index: 10;
     position: relative;
 }
-.phone {
+header .top .phone {
     position: absolute;
     right: 0;
     bottom: 0;
+    color: #fff;
 }
-.phone p {
+header .top .phone p {
     font-size: 36px;
 }
 
@@ -31,3 +30,51 @@ hr.line_yellow {
     height: 6px;
     margin: 0;
 }
+hr.line_gray {
+    background: #f2f2f2;
+    width: 100%;
+    height: 6px;
+    margin: 0;
+}
+
+/* menu - inicio */
+section.menu {
+    z-index: 1;
+    position: absolute;
+    background-color: #f9f9f9;
+    border-radius: 0px 20px 20px 0px;
+}
+section.menu hr.line_gray:last-child{
+    background: inherit;
+}
+section.menu nav.navbar{
+    padding: 0;
+}
+section.menu nav.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+section.menu nav.navbar ul li a{
+    display: grid;
+    padding: 8px 16px;
+    justify-items: center;
+    
+}
+section.menu nav.navbar ul li a img{
+    width: 30px;
+}
+.menu nav.navbar ul li a p {
+    color: #767070;
+}
+
+/* menu - fim */
+
+/* banner - inicio */
+.banner-landing {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* banner - fim */
+
