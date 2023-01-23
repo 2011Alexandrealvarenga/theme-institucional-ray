@@ -12,9 +12,7 @@
                         <input  class="br-8 mar-top-4" type="text" placeholder="MODELO:">
                     </div>
                     <textarea class="br-8 mar-top-4" rows="6" placeholder="MENSAGEM:"></textarea>
-                    <input class="br-8 mar-top-4 btn-send bg-yellow" type="button" value="ENVIAR">
-    
-    
+                    <input class="br-8 mar-top-4 btn-send bg-yellow" type="button" value="ENVIAR">    
                 </form>
             </div>
         </div>
