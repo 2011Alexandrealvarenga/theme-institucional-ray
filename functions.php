@@ -3,7 +3,10 @@ function aa_casari_institucional() {
     wp_enqueue_style( 'boostrap', 'https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css', array(), '1.1', 'all');
     wp_enqueue_style( 'header', get_template_directory_uri() . '/assets/css/header.css', array(), '1.1', 'all');
     wp_enqueue_style( 'normalize', get_template_directory_uri() . '/assets/css/normalize.css', array(), '1.1', 'all');
-    // wp_enqueue_style( 'mobile', get_template_directory_uri() . '/assets/css/mobile.css', array(), '1.1', 'all');
+    wp_enqueue_style( 'mobile', get_template_directory_uri() . '/assets/css/menu.css', array(), '1.1', 'all');
+    wp_enqueue_style( 'home', get_template_directory_uri() . '/assets/css/home.css', array(), '1.1', 'all');
+    wp_enqueue_style( 'general', get_template_directory_uri() . '/assets/css/general.css', array(), '1.1', 'all');
+
     // wp_enqueue_style( 'style_css', get_template_directory_uri() . '/assets/css/style.css', array(), '1.1', 'all');
     // if(is_single()){
     //   wp_enqueue_style( 'single', get_template_directory_uri() . '/assets/css/single.css', array(), '1.1', 'all');
@@ -39,10 +42,5 @@ function aa_casari_institucional() {
     
     add_filter( 'nav_menu_css_class', 'add_additional_class_on_li', 1, 3);
     
-    if (!function_exists('register_navwalker')) :
-        function register_navwalker() {
-            require('inc/jsc-navwalker.php');
-        }
-    endif;
-    add_action('after_setup_theme', 'register_navwalker');
+    
     

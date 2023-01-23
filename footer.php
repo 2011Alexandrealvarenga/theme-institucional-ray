@@ -1,7 +1,7 @@
 
 <?php wp_footer(); ?>
 <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
             $("#respMenu").aceResponsiveMenu({
@@ -44,7 +44,7 @@
 
                     // Initilizing        
                     $aceMenu.find('ul').addClass("sub-menu");
-                    $aceMenu.find('ul').siblings('a').append('<span class="arrow "></span>');
+                    // $aceMenu.find('ul').siblings('a').append('<span class="arrow "></span>');
                     if ($menuStyle == 'accordion') { $(this).addClass('collapse'); }
 
                     // Window resize on menu breakpoint 
@@ -132,5 +132,6 @@
                 }
             })(jQuery);
 	</script>
+
 </body>
 </html>
