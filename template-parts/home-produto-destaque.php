@@ -1,22 +1,30 @@
     
-<section class="carousel-horizontal">
+<section class="carousel-horizontal py-5">
   <div class="container">
     <div class="row multi-carousel" id="carousel">
+        <h2 class="h2title text-align-center">
+          PRODUTOS EM DESTAQUE
+        </h2>
         <div class="multi-carousel-inner">
           <div class="multi-carousel-item  border-blue">
-            <img src="https://mdbcdn.b-cdn.net/img/Photos/Thumbnails/Slides/1.jpg" class="w-100">
+            <img src="http://casarithemeinstitucional.local/wp-content/uploads/2023/01/mini-bug.png">
+            <h3 class="h3title">Outlander Max Limited 1000R</h3>
           </div>
           <div class="multi-carousel-item  border-blue">
-            <img src="https://mdbcdn.b-cdn.net/img/Photos/Thumbnails/Slides/2.jpg" class="w-100">
+            <img src="http://casarithemeinstitucional.local/wp-content/uploads/2023/01/jetsky.png">
+            <h3 class="h3title">Outlander Max Limited 1000R</h3>
           </div>
           <div class="multi-carousel-item  border-blue">
-            <img src="https://mdbcdn.b-cdn.net/img/Photos/Thumbnails/Slides/3.jpg" class="w-100">
+            <img src="http://casarithemeinstitucional.local/wp-content/uploads/2023/01/mini-bug-2.png">
+            <h3 class="h3title">Outlander Max Limited 1000R</h3>
           </div>
           <div class="multi-carousel-item  border-blue">
-            <img src="https://mdbcdn.b-cdn.net/img/Photos/Thumbnails/Slides/4.jpg" class="w-100">
+            <img src="http://casarithemeinstitucional.local/wp-content/uploads/2023/01/jetsky.png">
+            <h3 class="h3title">Outlander Max Limited 1000R</h3>
           </div>
           <div class="multi-carousel-item  border-blue">
-            <img src="https://mdbcdn.b-cdn.net/img/Photos/Thumbnails/Slides/2.jpg" class="w-100">
+            <img src="http://casarithemeinstitucional.local/wp-content/uploads/2023/01/mini-bug-2.png">
+            <h3 class="h3title">Outlander Max Limited 1000R</h3>
           </div>
         </div>
         <button class="carousel-control-prev " type="button" tabindex="0" data-mdb-slide="prev">

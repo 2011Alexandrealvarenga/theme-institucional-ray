@@ -1,4 +1,4 @@
-<section id="ir-para-conteudo" class="banner-landing" style="height: 450px;background-image: url('<?= get_template_directory_uri(); ?>/assets/img/landscape-large.jpg');">
+<section id="ir-para-conteudo" class="banner-landing" style="height: 650px;background-image: url('<?= get_template_directory_uri(); ?>/assets/img/landscape-large.jpg');">
     <div class="container pt-5">
         <div class="row justify-content-end">
             <div class="col-md-5">
