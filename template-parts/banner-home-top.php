@@ -1,4 +1,4 @@
-<!-- <section id="ir-para-conteudo" class="banner-landing" style="height: 650px;background-image: url('<?= get_template_directory_uri(); ?>/assets/img/landscape-large.jpg');">
+<section id="ir-para-conteudo" class="banner-landing" style="height: 650px;background-image: url('<?= get_template_directory_uri(); ?>/assets/img/landscape-large.jpg');">
     <div class="container pt-5">
         <div class="row justify-content-end">
             <div class="col-md-5">
@@ -12,9 +12,11 @@
                         <input  class="br-8 mar-top-4" type="text" placeholder="MODELO:">
                     </div>
                     <textarea class="br-8 mar-top-4" rows="6" placeholder="MENSAGEM:"></textarea>
-                    <input class="br-8 mar-top-4 btn-send bg-yellow" type="button" value="ENVIAR">    
+                    <div class="d-flex justify-content-end">
+                        <input class="br-8 mar-top-4 btn-send bg-yellow" type="button" value="ENVIAR">    
+                    </div>
                 </form>
             </div>
         </div>
     </div>
-</section> -->
+</section>
