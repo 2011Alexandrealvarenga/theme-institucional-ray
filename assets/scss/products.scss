@@ -1,0 +1,28 @@
+.products {
+    background: #342e2e;
+}
+.products .content {
+    padding-left: 32px;
+}
+.products .content .h2title,
+.products .content .h3title 
+{
+    color: #bfce3d;
+    margin-bottom: 0!important;
+}
+.products .content p{
+    margin-bottom: 0!important;
+    color: #c0c0c0;
+}
+.products .content .know-more {
+    background: #bfce3d;
+}
+.products .img-itens {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.products .row .col-6 {
+    padding: 0;
+}
